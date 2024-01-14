@@ -49,6 +49,8 @@ const greenIcon = L.icon({
           attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
     }
+
+    logIPInfo();
   
   
     
