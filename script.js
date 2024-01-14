@@ -1,5 +1,5 @@
-const ipifyApiKey = keys.ipify
-const geoApiKey = keys.geo
+const ipifyApiKey = process.env.IPIFY_API_KEY
+const geoApiKey = process.env.GEOCODING_API_KEY
 const searchButton = document.querySelector('.search-btn')
   
 const ipAddress = document.getElementById('ip-address')
