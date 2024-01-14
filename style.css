@@ -115,7 +115,7 @@ table {
     justify-content: space-around;
     align-items: center;
     top: calc(31vh - 7vh);
-    right: 20vw;
+    right: 10vw;
 }
 
 .ip-info > * {
